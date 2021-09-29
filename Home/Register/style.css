@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans&display=swap');
+
+body{
+	background-image: url(school3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.tittle{
+	text-align: center;
+	height: 15vh;
+	width: 80%;
+	margin: auto;
+}
+
+.registerbox{
+	margin: auto;
+	background-color: White;
+	width: 280px;
+	height: 360px;
+	border-radius: 20px;
+	padding: 20px 40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.registerbox input{
+	width: 200px;
+	height: 18px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+
+}
+.registerbox input[type = "button"]{
+	border: none;
+	outline: none;
+	background-color: gray;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.registerbox input[type = "button"]:hover{
+	cursor: pointer;
+	background-color: dimgray;
+}
+p{
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.registerbox input[type = "text"]{
+		font-family: 'Arvo', serif;
+		font-size: 18px;
+}
+h1,h2,h4{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+.registerbox input[type = "text"]:hover{
+	cursor: pointer;
+}
+p:hover{
+	cursor: context-menu;
+}
+.backHome {
+	width: 20px;
+	height: 25px;
+	left: 59%;
+	top: 26%;
+	position: absolute;
+}
+.backHome button{
+	width: 40px;
+	height: 30px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: #23BEDD;
+}
+.backHome button:hover{
+	cursor: pointer;
+	background-color: #F5392F;
+}
+.fas:hover{
+	cursor: pointer;
+}
+h1,h2,h4:hover{
+	cursor: context-menu;
+}
