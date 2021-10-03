@@ -1,6 +1,6 @@
-package com.school.p1;
+package com.balaji.school;
 
-public class Records{
+public class Student{
 	private int rollNumber;
 	private String name;
 	private String standard;

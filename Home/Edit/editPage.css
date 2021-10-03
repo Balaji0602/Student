@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(editpagebg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin-top: 15%;
+
+}
+h2,h3{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	font-family: 'Acme', sans-serif;
+
+}
+h2:hover{
+	cursor: context-menu;
+}
+h3:hover{
+	cursor: no-drop;
+}
+.editer{
+	padding: 20px;
+	width: 300px;
+	height: 380px;
+	left: 30%;
+	top: 23%;
+	position: absolute;
+	background-color: #FAD8B7;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 25px;
+}
+.editer input{
+	width: 200px;
+	height: 18px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+}
+.editer input[type = "text"]{
+	font-family: 'Arvo', serif;
+}
+p{
+	font-weight: bold;
+}
+.editer input[type = "button"]{
+	border-radius: 20px;
+	width: 100px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background-color: #6C00C6;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+.editer input[type = "text"]:hover{
+	cursor: pointer;
+}
+.editer input[type = "button"]:hover{
+	cursor: pointer;
+	/*background-color: #F5BD02;*/
+	background-color: #F5BD02;
+
+}
+p:hover{
+	cursor: context-menu;
+}
+
+
+
+
